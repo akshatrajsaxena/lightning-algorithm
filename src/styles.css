@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #ffaa00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Verdana', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.lightning-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: 1px solid #ffaa00;
+}
+
+h1 {
+  padding: 8px;
+  font-size: 24px;
+  background-color: black;
+}
