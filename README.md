@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Lightning Algorithm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Lightning Algorithm project! This repository showcases an algorithm visualizer that generates and solves mazes using Breadth-First Search (BFS). Below you will find detailed information about the project's technologies, file structure, functionalities, and how to access the project.
 
-## Available Scripts
+## Project Overview
+This project visualizes the process of generating solvable mazes and finding the shortest path through them using BFS. The algorithm generates a maze grid, highlights the maze-solving process, and finally animates a lightning strike along the solved path.
 
-In the project directory, you can run:
+## Technologies Used
+This project is built using:
 
-### `npm start`
+React: Utilized for its component-based architecture and efficient rendering.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CSS Modules: For scoped styling of React components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HTML5 Canvas: Used for drawing the maze grid and animations.
 
-### `npm test`
+## Project Structure
+The project is organized into several components and directories:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+src/components: Contains React components like Canvas, Maze, LightningAnimation, etc.
 
-### `npm run build`
+src/assets: Includes static assets such as images and icons.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/styles: CSS modules for styling components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+public: Public assets and the main HTML file.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+Maze Generation: Automatically generates solvable mazes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Breadth-First Search (BFS): Finds the shortest path from the top to the bottom of the maze.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Lightning Animation: Strikes along the solved path, accompanied by sound effects.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Development Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Clone the Repository
+```
+git clone https://github.com/your-username/lightning-algorithm.git
+cd lightning-algorithm
+```
 
-## Learn More
+### Install Dependencies
+```
+npm install
+```
+### Run the Development Server
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open http://localhost:3000 in your browser to view the project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Status
+**This project is currently in development, so it might contain bugs or incomplete features. Contributions and feedback are welcome!**
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Iterating Through the Maze Start
 
-### Analyzing the Bundle Size
+![Screenshot 2024-06-20 230210](https://github.com/akshatrajsaxena/lightning-algorithm/assets/119042958/c867f2ab-fcd1-465c-8cf6-6fe5a130e18a)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Finding the respective path (Highlighted With Yellow)
 
-### Advanced Configuration
+![Screenshot 2024-06-20 231138](https://github.com/akshatrajsaxena/lightning-algorithm/assets/119042958/e4832cf0-f421-4655-ad21-0e92da52c1e4)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## FAQ
 
-### Deployment
+#### Is the maze generation algorithm guaranteed to create solvable mazes?
+Yes, the maze generation algorithm ensures that all generated mazes have a solvable path from top to bottom.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### How does the lightning animation work?
+The lightning animation strikes along the path found by BFS, visually highlighting the shortest route through the maze.
 
-### `npm run build` fails to minify
+#### Is the project responsive?
+The project is designed primarily for desktop browsers and may not be fully optimized for mobile devices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### How to Contribute?
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+If you have any questions or feedback, you can reach out to mailto:akshat22054@iiitd.ac.in
+
+## Acknowledgements
+
+[Numberphile @Matt Henderson](https://www.youtube.com/watch?v=akZ8JJ4gGLs)
+
+[Python BFS Algorithm](https://github.com/Aaryan-R-S/Lightning-BFS)
+
+[React Project Development](https://youtu.be/LDB4uaJ87e0?si=f8MV7LT90Lmy_ziZ)
