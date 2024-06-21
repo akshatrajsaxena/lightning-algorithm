@@ -84,6 +84,8 @@ If you find any issues or have suggestions for improvements, feel free to open a
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+[MIT LICENSE](https://github.com/akshatrajsaxena/lightning-algorithm/blob/master/LICENSE)
+
 ## Contact
 
 If you have any questions or feedback, you can reach out to mailto:akshat22054@iiitd.ac.in
