@@ -18,6 +18,9 @@ Welcome to the Lightning Algorithm project! This repository showcases an algorit
 ## Project Overview
 This project visualizes the process of generating solvable mazes and finding the shortest path through them using BFS. The algorithm generates a maze grid, highlights the maze-solving process, and finally animates a lightning strike along the solved path.
 
+## Demo 
+[Visit this Site](https://akshatrajsaxenalightningstrike.netlify.app)
+
 ## Technologies Used
 This project is built using:
 
