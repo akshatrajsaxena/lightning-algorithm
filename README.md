@@ -10,18 +10,20 @@
 </div>
 <br>
 
-
 # Lightning Algorithm
 
 Welcome to the Lightning Algorithm project! This repository showcases an algorithm visualizer that generates and solves mazes using Breadth-First Search (BFS). Below you will find detailed information about the project's technologies, file structure, functionalities, and how to access the project.
 
 ## Project Overview
+
 This project visualizes the process of generating solvable mazes and finding the shortest path through them using BFS. The algorithm generates a maze grid, highlights the maze-solving process, and finally animates a lightning strike along the solved path.
 
 ## Demo 
+
 [Visit this Site](https://akshatrajsaxenalightningstrike.netlify.app)
 
 ## Technologies Used
+
 This project is built using:
 
 React: Utilized for its component-based architecture and efficient rendering.
@@ -31,6 +33,7 @@ CSS Modules: For scoped styling of React components.
 HTML5 Canvas: Used for drawing the maze grid and animations.
 
 ## Project Structure
+
 The project is organized into several components and directories:
 
 src/components: Contains React components like Canvas, Maze, LightningAnimation, etc.
@@ -52,16 +55,19 @@ Lightning Animation: Strikes along the solved path, accompanied by sound effects
 ## Development Setup
 
 ### Clone the Repository
+
 ```
 git clone https://github.com/your-username/lightning-algorithm.git
 cd lightning-algorithm
 ```
 
 ### Install Dependencies
+
 ```
 npm install
 ```
 ### Run the Development Server
+
 ```
 npm start
 ```
@@ -69,6 +75,7 @@ npm start
 Open http://localhost:3000 in your browser to view the project.
 
 ## Project Status
+
 **This project is currently in development, so it might contain bugs or incomplete features. Contributions and feedback are welcome!**
 
 
@@ -91,9 +98,11 @@ Yes, the maze generation algorithm ensures that all generated mazes have a solva
 The lightning animation strikes along the path found by BFS, visually highlighting the shortest route through the maze.
 
 #### Is the project responsive?
+
 The project is designed primarily for desktop browsers and may not be fully optimized for mobile devices.
 
 #### How to Contribute?
+
 If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are welcome!
 
 ## License
