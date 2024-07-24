@@ -1,5 +1,7 @@
 <h1 align="center">Maze Path Solver using BFS</h1>
+
 <p align="center"><i>Implementing BFS on randomly generating Maze in order to find the accurate solvable path</i></p>
+
 <div align="center">
   <a href="https://github.com/akshatrajsaxena/lightning-algorithm/stargazers"><img src="https://img.shields.io/github/stars/akshatrajsaxena/lightning-algorithm" alt="Stars Badge"/></a>
   <a href="https://github.com/akshatrajsaxena/lightning-algorithm/network/members"><img src="https://img.shields.io/github/forks/akshatrajsaxena/lightning-algorithm" alt="Forks Badge"/></a>
