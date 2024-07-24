@@ -80,12 +80,9 @@ Open http://localhost:3000 in your browser to view the project.
 
 **This project is currently in development, so it might contain bugs or incomplete features. Contributions and feedback are welcome!**
 
-
 ### Iterating Through the Maze Start
 
 ![Screenshot 2024-06-20 230210](https://github.com/akshatrajsaxena/lightning-algorithm/assets/119042958/c867f2ab-fcd1-465c-8cf6-6fe5a130e18a)
-
-
 
 ### Finding the respective path (Highlighted With Yellow)
 
