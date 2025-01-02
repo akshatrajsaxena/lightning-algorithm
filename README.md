@@ -12,6 +12,20 @@
 </div>
 <br>
 
+<p align="center">
+    An awesome project that optimizes the Nutrition Profile!
+    <br />
+    <strong>Explore the docs »</strong>
+    <br />
+    <br />
+    <a href="https://akshatrajsaxenalightningstrike.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/akshatrajsaxena/lightning-algorithm/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/akshatrajsaxena/lightning-algorithm/issues">Request Feature</a>
+    <br />
+</p>
+
 # Lightning Algorithm
 
 Welcome to the Lightning Algorithm project! This repository showcases an algorithm visualizer that generates and solves mazes using Breadth-First Search (BFS). Below you will find detailed information about the project's technologies, file structure, functionalities, and how to access the project.
